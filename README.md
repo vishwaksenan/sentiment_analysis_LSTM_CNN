@@ -17,7 +17,7 @@ There are various things we remove from the tweet. Here are few
 
 ## LSTM_CNN.ipynb
 This is the actual notebook file which does the sentiment analysis.   
-For pre-processing, nltk is used.   
-For the neural networks, keras is used.     
+#### For pre-processing, nltk is used.   
+#### For the neural networks, keras is used.     
 LSTM is actually an RNN layer. But while training big texts using LSTM, the training time increases. Therefore, we convert the single line of integers into 2D matrix and convol a kernal matrix over the data and make the operations fasters.    
 Therefore, we use a CNN model over an RNN model and make our more efficient.   
